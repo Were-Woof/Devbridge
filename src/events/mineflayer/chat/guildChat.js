@@ -1,7 +1,7 @@
 const { WebhookClient, EmbedBuilder } = require('discord.js');
 const func = require('../../../util/function');
 require('dotenv').config();
-const getStats = require('hypixel_api.js')
+const getStats = require('hypixel_api.js');
 
 module.exports = {
     name: 'chat:guildChat',
