@@ -1,7 +1,6 @@
 const { WebhookClient, EmbedBuilder } = require('discord.js');
 const func = require('../../../util/function');
 require('dotenv').config();
-const apiKey = require('API_KEY.json')
 const getStats = require('hypixel_api.js')
 
 module.exports = {
