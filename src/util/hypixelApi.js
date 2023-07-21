@@ -7,7 +7,7 @@ module.exports = {
                 let bedwarsStats = data["player"]["stats"]["Bedwars"];
                 let bedwarsWLR = (bedwarsStats['wins_bedwars'] / bedwarsStats['losses_bedwars']);
                 let bedwarsFKDR = (bedwarsStats['final_kills_bedwars'] / bedwarsStats['final_deaths_bedwars]);
-                let payload = {
+                const payload = {
                 	wlr: bedwarsWLR,
                 	fkdr: bedwarsFKDR
                 }
